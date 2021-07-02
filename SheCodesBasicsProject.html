@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Container Gardening 🌿</title>
+
+<!--CSS Starts here-->
+  <style>
+
+    html, body {
+      background: #f8ede3;
+      min-height: 400px;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      position: relative;
+    }
+
+    button {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      background-image: linear-gradient(#bdd2b6, #a2b29f);
+      color: #feffde;
+      text-shadow: 1px 1px #e08f62;
+      font-size: 17px;
+      font-weight: 600;
+      font-family: var(--header-font), serif;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      transition: all 200ms ease-in-out;
+    }
+
+    button:hover {
+      background-image: linear-gradient(#feffde, #ded7b1);
+      color: #bdd2b6;
+      opacity: .9;
+      cursor: pointer;
+    }
+
+    div {
+      display: block;
+    }
+
+    h1 {
+    text-align: center;
+    text-shadow: 3px 2px #ded7b1;
+    color: #e08f62;
+    display: block;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: var(--header-font), serif;
+    padding-top: 80px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    text-align: center;
+    display: block;
+    color: #e08f62;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--header-font), serif;
+    line-height: 1.2;
+  }
+
+  h4 {
+    text-align: center;
+    color: #bdd2b6;
+    text-shadow: 1px 1px #e08f62;
+    top-padding: 0;
+    margin-top: 0;
+  }
+
+  hr{
+    border-style: dotted none none;
+    border-color: #a2b29f;
+    border-width: 5px;
+    width: 35%;
+    padding-bottom: 10px;
+  }
+
+  img.woman {
+    max-width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  p {
+    color: #464f41;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    font-family: var(--header-font), serif;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  span {
+    color: #798777;
+  }
+
+  div.topnav {
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/803/original/Typography-01.png?1619301906');
+    padding: 40px 30px;
+    border: 1px solid #798777;
+  }
+
+  .topnav a {
+    float: center;
+    color: #feffde;
+    text-align: center;
+    text-shadow: 1px 1px #e08f62;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: var(--header-font), serif;
+    background-color: #bdd2b6;
+    border-radius: 11px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+  }
+
+  .topnav a:hover {
+    background-color: #feffde;
+    color: #bdd2b6;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  div.hello {
+    padding-bottom: 90px;
+    padding-top: 90px;
+    margin: auto;
+  }
+
+  div.middle {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+    background: #e8a886;
+    max-width: 70%;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .credit {
+    text-decoration: none;
+    color: #bdd2b6;
+    transition: all 200ms ease-in-out;
+  }
+
+  .credit:hover{
+    cursor: pointer;
+    color: #feffde;
+  }
+
+  .p1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .p3 {
+    padding-top: 20px;
+    font-size: 10px;
+    margin: auto;
+  }
+
+  a.photo-credit{
+    text-decoration: none;
+    color: #e08f62;
+    text-shadow: .5px .5px #bdd2b6;
+    transition: all 200ms ease-in-out;
+  }
+
+  a.photo-credit:hover {
+    color: #bdd2b6;
+    text-shadow: .5px .5px #e08f62;
+  }
+
+div.footer {
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/803/original/Typography-01.png?1619301906');
+  padding: 10px 10px;
+  border: 1px solid #798777;
+  margin: auto;
+}
+  </style>
+</head>
+
+<!--HTML starts here-->
+
+<body>
+  <div class="header">
+    <div class="topnav">
+    <a class= "active" href="#home">home</a>
+    <a class= "about" href="#about">about</a>
+    <a class= "shop" href="#shop">shop</a>
+    <a class="contact" href="#contact">contact</a>
+    </div>
+  </div>
+
+  <div class="hello">
+    <h1>container gardening</h1>
+    <h2><strong>ideal</strong> for those with little to no garden space</h2>
+    <br />
+    <hr />
+  </div>
+  <br />
+  <br />
+  <br />
+  <div class="middle">
+    <img class="woman" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/869/original/jhkl.jpeg?1619370480" />
+    <p class="p1">
+      If you're low on space or live in an apartment,
+      container gardening may be the <em>perfect</em> way for you to have access to <span>fresh</span>,
+      healthy fruits and vegetables.
+      </p>
+      <br />
+      <p class="p2">
+        There are many factors that come into play when planning your container garden.
+        How much space for containers you have, the types of plants that do well in containers, and
+        the size of the containers you will need. However, don't let the planning scare you away! Growing your
+        own food is a rewarding experience that everyone should be allowed to enjoy.
+        <br />
+        <br />
+        <br />
+        When planning your container garden, consider the plants you'd like to grow. Some plants that do well in containers
+        are: eggplants, tomatoes, cucumbers, herbs, green onions, peppers, etc. You must also take into consideration
+        the size and shape of a plant's root system in order to determine the proper size container. The color of your container
+        is another factor to consider as lighter colored pots keep the soil cooler than their darker counterparts.
+        <br />
+        <br />
+        <br />
+        No matter what you choose to grow in, drainage holes are a must. Without proper drainage, plants can become waterlogged
+        and die. You can drill your own holes if a container does not have them. It's also recommended to put rocks or pieces of old
+        terracota pots in the bottom to aid drainage.
+        <br />
+        <br />
+        <br />
+        Container gardening takes a bit of planning like any garden project. If the idea of growing your own food in a smaller space
+        appeals to you, consider heading to your local garden store to begin the process. You can also sign up for our bi-weekly newsletter down below!
+        </p>
+        <br />
+        <br />
+        <button class="newsletter">✉️ email newsletter signup</button>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <div class="footer">
+    <p class="p3">
+      <a class="photo-credit" href="https://www.miraclegro.com/en-us/library/container-gardening/summer-care-container-plants" target="_blank">photo credit</a>
+      </p>
+    <h4>coded by <a class="credit" href="https://linkedin.com/in/matheson-deese"
+      target="_blank">matheson deese</a>
+    </h4>
+    </div>
+
+  <script>
+    function up() {
+      let name = prompt("What is your name?");
+      let email = prompt("What is your email address?");
+
+      if (name.length > 0 && email.length > 0) {
+          alert(
+          "Thank you, " +
+            name +
+            "! We'll be in touch by email, Have a good day! "
+      );
+      } else {
+        alert ("Have a good day!");
+      }
+    }
+
+    let signUp = document.querySelector(".newsletter");
+    signUp.addEventListener("click", up);
+
+  </script>
+</body>
+</html>
